@@ -6,10 +6,10 @@ import ru.netology.api.Post;
 public class Main {
     public static void main(String[] args) {
         Post post = new Post();
+        post.birthday = new FormDate();
         post.name = "Юрий";
         post.patronymic = "Алексеевич";
         post.surname = "Гагарин";
-        post.birthday = new FormDate();
         post.birthday.day = 9;
         post.birthday.month = 3;
         post.birthday.year = 1934;
